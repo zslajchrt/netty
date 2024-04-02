@@ -319,6 +319,8 @@
         </os>
       </activation>
       <properties>
+        <exe.compiler>clang</exe.compiler>
+        <exe.archiver>llvm-ar</exe.archiver>
         <jni.platform>linux</jni.platform>
       </properties>
       <build>
